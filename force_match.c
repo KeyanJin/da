@@ -73,7 +73,8 @@ int forceMatch(String * master,String * subject)
             subjectPointer = 0;
         }
     }
-    index = masterPointer - subject->len;   
+    index = masterPointer - subject->len;
+    return index;
 }
 int main(void)
 {
